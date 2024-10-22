@@ -1,0 +1,13 @@
+import { FETCH_A_BOOK } from "./actionTypes";
+
+const fetchABookActionCreator = (bookId) =>{
+    return ({
+        type: FETCH_A_BOOK,
+        payload: {
+            bookId: bookId       
+    }})
+}
+
+export default fetchABookActionCreator;
+
+
